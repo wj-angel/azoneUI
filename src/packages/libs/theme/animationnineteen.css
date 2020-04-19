@@ -1,0 +1,18 @@
+/*360度旋转*/
+.rotate{
+width: 120px;
+height: 120px;
+border-radius: 50%;
+background: deepskyblue;
+text-align: center;
+line-height: 120px;
+position: absolute;
+left: 1100px;
+white-space: nowrap;
+transition:All 1s  ease-in-out;
+  color: #fff;
+}
+.rotate:hover{
+transform: rotateZ(360deg);
+}
+

@@ -1,0 +1,44 @@
+.box{
+  box-sizing: border-box;
+  width:48.8%;
+  background: #fff;
+  border:1px solid #e6e9ed;
+  margin:20px auto;
+}
+.box .tt{
+  height:48px;
+  line-height: 48px;
+  border-bottom:2px solid #e6e9ed;
+  margin:0 3%;
+}
+.box .tt h3{
+  font-size:18px;
+  font-weight: 500;
+  color: #73879c;
+  float: left;
+  padding-left:5px;
+}
+.box .tt h3 span{
+  font-size:16px;
+  color: #777777;
+  margin-left:10px;
+}
+.box .tt .ii{
+  float: right;
+  margin-right:13px;
+  margin-top:22px;
+  width:0px;
+  height:0px;
+  border:5px solid transparent;
+  border-top:5px solid #666;
+  cursor: pointer;
+}
+.box p{
+  padding-top:15px;
+  padding-bottom:20px;
+  width:90%;
+  margin:0 auto;
+  font-size:14px;
+  line-height:25px;
+  height:135px;
+}

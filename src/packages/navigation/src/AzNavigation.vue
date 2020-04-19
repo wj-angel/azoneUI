@@ -1,0 +1,182 @@
+<template>
+    <div class="nav_menu3">
+      <ul>
+        <li class='nav-has-sub' v-for="i in navlis"><a :href='i.http' :style="{width:width+'px',height:height+'px',fontSize: size+'px'}">{{i.httptext}}</a>
+          <ul>
+            <li><a :href='j.https' v-for="j in i.textul" :style="{width:width+'px',height:height+'px',fontSize: size+'px'}">{{j.httptexts}}</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+</template>
+
+<script>
+  import   '../../libs/jquery.min'
+  export default {
+    name: "AzNavigation",
+    props:{
+      width:{
+        type: String,
+        default: '100'
+      },
+      height:{
+        type: String,
+        default: '50'
+      },
+      size: {
+        type: String,
+        default: ''
+      },
+      navlis:{
+        type:Array,
+        default:[
+          {
+            "http":"www.baidu.com",
+            "httptext":"第一页面",
+            "textul":[
+              {
+                "https":"www.baidu.com",
+                "httptexts":"第一页面1",
+              },
+              {
+                "https":"www.baidu.com",
+                "httptexts":"第一页面2",
+              },
+              {
+                "https":"www.baidu.com",
+                "httptexts":"第一页面3",
+              },
+              {
+                "https":"www.baidu.com",
+                "httptexts":"第一页面4",
+              }
+            ]
+          },
+          {
+            "http":"www.baidu.com",
+            "httptext":"第二页面",
+            "textul":[
+              {
+                "https":"www.baidu.com",
+                "httptexts":"第二页面1",
+              },
+              {
+                "https":"www.baidu.com",
+                "httptexts":"第二页面2",
+              },
+              {
+                "https":"www.baidu.com",
+                "httptexts":"第二页面3",
+              },
+              {
+                "https":"www.baidu.com",
+                "httptexts":"第二页面4",
+              }
+            ]
+          },
+          {
+            "http":"www.baidu.com",
+            "httptext":"第三页面",
+            "textul":[
+              {
+                "https":"www.baidu.com",
+                "httptexts":"第三页面1",
+              },
+              {
+                "https":"www.baidu.com",
+                "httptexts":"第三页面2",
+              },
+              {
+                "https":"www.baidu.com",
+                "httptexts":"第三页面3",
+              }
+            ]
+          },
+          {
+            "http":"www.baidu.com",
+            "httptext":"第四页面",
+            "textul":[
+              {
+                "https":"www.baidu.com",
+                "httptexts":"第四页面1",
+              }
+            ]
+          },
+          {
+            "http":"www.baidu.com",
+            "httptext":"第五页面",
+            "textul":[
+              {
+                "https":"www.baidu.com",
+                "httptexts":"第五页面1",
+              },
+              {
+                "https":"www.baidu.com",
+                "httptexts":"第五页面2",
+              },
+              {
+                "https":"www.baidu.com",
+                "httptexts":"第五页面3",
+              }
+            ]
+          },
+          {
+            "http":"www.baidu.com",
+            "httptext":"第六页面",
+            "textul":[
+              {
+                "https":"www.baidu.com",
+                "httptexts":"第六页面1",
+              },
+              {
+                "https":"www.baidu.com",
+                "httptexts":"第六页面2",
+              }
+            ]
+          },
+          {
+            "http":"www.baidu.com",
+            "httptext":"第七页面",
+            "textul":[
+              {
+                "https":"www.baidu.com",
+                "httptexts":"第七页面1",
+              },
+              {
+                "https":"www.baidu.com",
+                "httptexts":"第七页面2",
+              },
+              {
+                "https":"www.baidu.com",
+                "httptexts":"第七页面3",
+              }
+              ,
+              {
+                "https":"www.baidu.com",
+                "httptexts":"第七页面4",
+              }
+            ]
+          },
+          {
+            "http":"www.baidu.com",
+            "httptext":"第八页面",
+            "textul":[
+              {
+                "https":"www.baidu.com",
+                "httptexts":"第八页面1",
+              },
+              {
+                "https":"www.baidu.com",
+                "httptexts":"第八页面2",
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+</script>
+
+<style scoped>
+  @import "../../libs/theme/navigation.css";
+</style>

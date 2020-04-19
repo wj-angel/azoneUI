@@ -1,0 +1,147 @@
+.table{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+table.tables1{
+  margin-bottom: 30px;
+}
+.tables{
+  width:100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  max-width: 100%;
+  background-color: transparent;
+  font-family: "新宋体";
+  margin-bottom: 0;
+  text-align: center;
+  border-radius: 0!important;
+  border: 1px solid #ddd;
+}
+.check{
+  width: 18px;
+  margin-left: 3px;
+  position: relative;
+}
+.input_check {
+  opacity: 0;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.check label{
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url(../images/az_wei.png) no-repeat;
+  background-size: 18px 18px;
+  margin-top: 2px;
+  margin-right: 13px;
+}
+.check .input_check:checked+label {
+  background: url(../images/az_xuan.png)no-repeat;
+  background-size: 18px 18px;
+}
+.checks{
+  width: 18px;
+  margin-left: 3px;
+  position: relative;
+}
+.input_check {
+  opacity: 0;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.checks label{
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url(../images/az_wei.png) no-repeat;
+  background-size: 18px 18px;
+  margin-top: 2px;
+  margin-right: 13px;
+}
+.checks .input_check:checked+label {
+  background: url(../images/az_xuan.png)no-repeat;
+  background-size: 18px 18px;
+}
+.tables thead tr{
+  width: 100%;
+  height: 35px;
+  color: #707070;
+  font-weight: normal;
+  background: #f2f2f2;
+  background-repeat: repeat-x;
+}
+.tables thead tr th{
+  border: 1px solid #ddd;
+  vertical-align: middle;
+  text-align: center;
+  color: #307ecc;
+  font-size: 12px;
+}
+.tables thead tr th:first-child {
+  border-left-color: #DDD;
+  width: 44px;
+  padding: 8px;
+}
+.tables thead:first-child tr:first-child th{
+  border-top: 0;
+}
+.tables thead tr th:nth-child(2) {
+  width: 55px;
+}
+.tables thead tr th:nth-child(3) {
+  width: 75px;
+}
+.tables thead tr th:nth-child(4) {
+  width: 98px;
+}
+.tables thead tr th:nth-child(5) {
+  width: 98px;
+}
+.tables thead tr th:nth-child(6) {
+  width: 170px;
+}
+.tables thead tr th:nth-child(7) {
+  width: 192px;
+}
+.tables thead tr th:nth-child(8) {
+  width: 171px;
+}
+.tables thead tr th:nth-child(9) {
+  width: 98px;
+}
+.tables thead tr th:nth-child(10) {
+  width: 209px;
+}
+.tables tbody tr td {
+  word-wrap: break-word;
+  word-break: break-all;
+  vertical-align: middle;
+  font-family: "新宋体";
+  text-align: center;
+  white-space:nowrap;
+  padding: 8px;
+  line-height: 1.428571429;
+}
+.tables tbody tr{
+  width: 100%;
+  height: 35px;
+  font-weight: normal;
+  background-repeat: repeat-x;
+  color: black;
+}
+.tables tbody tr:nth-child(2n+1){
+  background: #F9F9F9;
+}
+.tables tbody tr:hover{
+  background: #f5f5f5;
+}
+.tables tbody tr td{
+  border: 1px solid #ddd;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 12px;
+}

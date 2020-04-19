@@ -1,0 +1,14 @@
+/*平滑放大*/
+.smoothzoom{
+width: 120px;
+height: 120px;
+border-radius: 50%;
+background: deepskyblue;
+text-align: center;
+line-height: 120px;
+position: absolute;
+left: 500px;
+white-space: nowrap;
+  color: #fff;
+}
+

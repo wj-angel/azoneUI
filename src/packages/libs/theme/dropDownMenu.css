@@ -1,0 +1,36 @@
+
+#ul1{
+  width:800px;
+  margin:20px auto;
+  height:50px;
+  line-height:50px;
+  list-style:none;
+  background:#fff;
+  color:#000;
+}
+#ul1 li{
+  float:left;
+  width:25%;
+  text-align:center;
+}
+
+#ul1 li a{
+  text-decoration:none;
+  display:block;
+  color:#000;
+  border:1px solid #000;
+}
+.uldiv{
+  display:none;
+  background:#fff;
+}
+#ul1 li:hover div{
+  display: block;
+}
+#ul1 li a:hover{
+  background:skyblue;
+}
+#az-red{
+  background-color: red;
+}
+

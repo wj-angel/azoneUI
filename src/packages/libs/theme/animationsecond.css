@@ -1,0 +1,17 @@
+
+/*loading circle*/
+.circle{
+  margin: 20px auto;
+  width: 30px;
+  height: 30px;
+  border: 5px white solid;
+  border-left-color: #ff5500;
+  border-right-color:#0c80fe;
+  border-radius: 100%;
+  animation: loading1 1s infinite linear;
+}
+@keyframes loading1{
+  from{transform: rotate(0deg)}to{transform: rotate(360deg)}
+}
+
+

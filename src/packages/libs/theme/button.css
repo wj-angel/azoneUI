@@ -1,0 +1,68 @@
+.buttons{
+  display: inline-block;
+  vertical-align: center;
+}
+.az-button{
+  width:100px;
+  height:50px;
+  color:#000000;
+  cursor: pointer;
+  font-size: 14px;
+  display: inline-block;
+  transition: all .2s;
+  margin-left: 20px;
+  border: 1px solid #cccccc;
+}
+.az-button--red{
+  width:100px;
+  height:50px;
+  background-color: red;
+  color:#000000;
+  cursor: pointer;
+  margin-left: 20px;
+  display: inline-block;
+  transition: all .2s;
+  border: 1px solid #cccccc;
+}
+
+.az-button--blue {
+  width:100px;
+  height:50px;
+  background-color: blue;
+  display: inline-block;
+  color:#000000;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: all .2s;
+  border: 1px solid #cccccc;
+}
+.az-button--yellow {
+  width:100px;
+  height:50px;
+  background-color: yellow;
+  display: inline-block;
+  color:#000000;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: all .2s;
+  border: 1px solid #cccccc;
+}
+.buttons .is-disabled{
+  cursor: no-drop ;
+  border:1px solid #cccccc;
+}
+.buttons .is-around{
+  border-radius: 50%;
+  border:1px solid #cccccc;
+}
+.buttons .is-orgin{
+  border-radius: 25px;
+  border:1px solid #cccccc;
+}
+.buttons button:hover{
+  opacity: .6;
+}
+.buttons button[disabled]:hover{
+  opacity: 1;
+}

@@ -1,0 +1,14 @@
+
+/*div稍微从下往上滑动*/
+.bottomtotoplittle{
+width: 120px;
+height: 120px;
+border-radius: 50%;
+background: deepskyblue;
+text-align: center;
+line-height: 120px;
+position: absolute;
+left: 300px;
+white-space: nowrap;
+  color: #fff;
+}

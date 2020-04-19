@@ -1,0 +1,34 @@
+#box{
+  width: 600px;
+  margin: 20px auto;
+}
+.tab-tit{
+  font-size: 0;
+  width: 600px;
+}
+.tab-tit a{
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  width: 25%;
+  font-size: 18px;
+  text-align: center;
+  background: #fff;
+  color: #333;
+  text-decoration:none;
+}
+.tab-tit .cur{
+  background: #fff;
+  color: blue;
+  border-bottom: 2px solid blue;
+}
+.tab-con div{
+  border: 1px solid #ccc;
+  border-top: none;
+  height: 200px;
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 16px;
+}

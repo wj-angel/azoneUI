@@ -1,0 +1,28 @@
+/*有百分比,可以动的进度条*/
+#box{
+  width: 500px;
+  height: 15px;
+  margin: 50px auto;
+  overflow: hidden;
+  border-radius: 15px;
+  background: #f7f7f7;
+  background-image: linear-gradient(to bottom, #f5f5f5, #f9f9f9);
+  background-repeat: repeat-x;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+#barbar{
+  height: 15px;
+  width: 0;
+  display: block;
+  line-height: 15px;
+  text-align: center;
+  color: #333;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-image: linear-gradient(to bottom right, #7A88FF, #7AFFAF);
+}
+.textbox{
+  margin: 20px auto;
+  width: 500px;
+  font-size: 14px;
+  text-indent: 20px;
+}

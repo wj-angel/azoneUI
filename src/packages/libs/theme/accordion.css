@@ -1,0 +1,57 @@
+.both{
+  width: 750px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+.box{
+  float: left;
+  overflow: hidden;
+}
+.box .imgBox{
+  width: 149px;
+  height: 320px;
+  line-height: 320px;
+  float: left;
+  position: relative;
+  transition:all 1.5s;
+  box-shadow: 0 0 25px black;
+  border-left: 1px solid #fff;
+  text-align: center;
+  color:#000;
+  font-size:26px;
+  font-weight: 600;
+}
+.box .imgBox p{
+  width: 100%;
+  height: 60px;
+  background: rgba(0,0,0,.6);
+  line-height: 60px;
+  color: white;
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  font-family: "微软雅黑";
+  text-indent: 12px;
+  font-size:18px;
+}
+.box:hover .imgBox{
+  width: 49px;
+}
+.box .imgBox:hover{
+  width: 549px;
+}
+.box .imgBox:nth-of-type(1){
+  background-color: red;
+}
+.box .imgBox:nth-of-type(2){
+  background-color: green;
+}
+.box .imgBox:nth-of-type(3){
+  background-color: blue;
+}
+.box .imgBox:nth-of-type(4){
+  background-color: yellow;
+}
+.box .imgBox:nth-of-type(5){
+  background-color: gray;
+}

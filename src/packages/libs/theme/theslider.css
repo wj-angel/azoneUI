@@ -1,0 +1,24 @@
+.theslider{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+input[type=range]::-webkit-slider-thumb{
+  -webkit-appearance: none; /* 去除滑块的默认样式 */
+  height: 30px;
+  width: 12px;
+  background:lightseagreen;
+  border-radius: 10px;
+  box-shadow: 0 .125em .125em #3b4547;
+  margin-top: -8px;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  height: 15px;
+  border-radius: 10px;
+  box-shadow: 0 1px 1px #def3f8, inset 0 .125em .125em #0d1112;
+}
+input[type=range] {
+  outline: none;
+  -webkit-appearance: none;
+  /* 去除系统默认appearance的样式,常用于IOS下移除原生样式 */
+  border-radius: 10px;
+}

@@ -1,0 +1,148 @@
+.container{
+  float: left;
+  width: 50%;
+}
+.newcontent{
+  padding: 0 25px;
+  margin-top: 55px;
+}
+.newheader{
+  margin-bottom: 60px;
+  overflow: hidden;
+}
+.newheader h3{
+  float: left;
+  margin-top: 5px;
+  color: #29323d;
+  font-weight: normal;
+  font-size: 24.5px;
+}
+.newform{
+  overflow: hidden;
+}
+.newformleft{
+  border-right: 1px solid #edeef1;
+  box-shadow: 4px 0px 3px -1px rgba(226, 226, 226, 0.1);
+  margin-left:0;
+  width: 100%;
+}
+form{
+  margin: 0 0 20px;
+}
+.box{
+  margin-bottom: 25px;
+  margin-left: 0;
+  float: left;
+  width: 100%;
+}
+form label{
+  display: inline-block;
+  float: left;
+  font-weight: 600;
+  font-size: 13px;
+  width: 120px;
+  cursor: auto;
+  margin-bottom: 5px;
+  line-height: 20px;
+}
+.newinput{
+  margin: 0;
+  background: #fff;
+  padding: 3px 6px;
+  border-top: 0 none;
+  border-right: 0 none;
+  border-left: 0 none;
+  border-bottom: 1px solid #d0dde9;
+  border-color: #dee3ea;
+  display: inline-block;
+  float: none;
+  width: 74%;
+  min-height: 30px;
+  font-size: 13px;
+  font-family: "Open Sans", Arial;
+  outline: 0;
+  font-weight: normal;
+  font-style: italic;
+  color: #a4a4a4;
+}
+.userselect{
+  width: 40%;
+  margin-left: 0px !important;
+  vertical-align: middle;
+  min-width: 100px;
+  height: 25px;
+  min-height: 25px !important;
+  position: relative;
+  overflow: hidden;
+  background: url(../../libs/images/az_select-bg.png), linear-gradient(to bottom, #ffffff 0%,#f0f1f2 100%);
+  border: 1px solid #cfdde8;
+  border-radius: 5px;
+  background-position: 94%;
+  background-repeat: no-repeat;
+}
+.userselect select{
+  line-height: inherit;
+  width: 135%;
+  font-family: "Open Sans", Arial;
+  font-size: 12px;
+  border: none;
+  padding: 1px 30px 0px 7px;
+  height: 25px;
+  -webkit-appearance: none;
+  color: #737f8d;
+  text-shadow: 1px 1px 1px #fff;
+  background: transparent;
+  margin: 0;
+  border-radius: 2px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.useraddress{
+  margin-left: 0px;
+  float: left;
+  width: 75%;
+}
+.smalll{
+  width: 30%;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.last{
+  margin-right: 0;
+}
+.heihei{
+  width: 99%;
+}
+.usertext{
+  height: 88px;
+  display: inline-block;
+  float: none;
+  margin-left: 0;
+  width: 74%;
+  font-size: 13px;
+  box-shadow: inset 0 0px 1px rgba(0, 0, 0, 0.075);
+  padding: 4px 6px;
+  margin-bottom: 10px;
+  line-height: 20px;
+  color: #555555;
+  vertical-align: middle;
+  border-radius: 4px;
+  font-weight: normal;
+  overflow: auto;
+  border: 1px solid #d0dde9;
+}
+.textarea{
+  margin-bottom: 25px;
+  margin-left: 0;
+  float: left;
+  width: 100%;
+  margin-top: 27px;
+}
+.newinput:hover{
+  border-bottom: 1px solid #959fb0;
+  border-radius: 4px;
+}
+.newinput:focus{
+  border: 1px solid #959fb0;
+  border-radius: 4px;
+}

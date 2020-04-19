@@ -1,0 +1,14 @@
+/*渐现*/
+.fade-in{
+width: 120px;
+height: 120px;
+border-radius: 50%;
+background: deepskyblue;
+text-align: center;
+line-height: 120px;
+position: absolute;
+left: 700px;
+white-space: nowrap;
+  color: #fff;
+}
+
