@@ -15,7 +15,7 @@
     "highlight.js": "^9.13.1",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
-    "three": "^0.100.0",
+    "three": "^0.137.0",
     "three-js": "^79.0.0",
     "vcolorpicker": "^0.1.8",
     "vue": "^2.5.2",
